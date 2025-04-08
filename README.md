@@ -1,6 +1,70 @@
-# .
+# SmartParm Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+SmartParm Dashboard는 사용자에게 실시간 데이터 시각화 및 분석 기능을 제공하는 웹 애플리케이션입니다. 이 프로젝트는 Vue 3와 Vite를 기반으로 하며, Tailwind CSS를 사용하여 스타일링되었습니다.
+
+## 주요 기능
+- 실시간 데이터 시각화
+- 사용자 맞춤형 대시보드 구성
+- 데이터 필터링 및 정렬 기능
+
+## 추가된 기능
+
+1. **스마트팜 제어 시스템**:
+   - **제어 설정**: 온도, 습도, CO2, 조명, EC, pH, 관수 및 환기 설정을 포함한 다양한 환경 제어 기능을 제공합니다.
+   - **재배층 관리**: 각 재배층에 대한 개별 설정 및 제어 기능을 지원합니다. (예: 조명, 관수 토글)
+
+2. **실시간 모니터링**:
+   - **실시간 영상**: 각 농장의 실시간 모니터링을 위한 영상 스트리밍 기능을 제공합니다.
+   - **환경 데이터**: 온도, 습도, CO2, VPD, EC, pH 등의 실시간 환경 데이터를 시각화합니다.
+
+3. **분석 대시보드**:
+   - **생산성 지표**: 발아율, 착과율, 일일 수확량, 물 사용량, 에너지 사용량 등의 생산성 지표를 제공합니다.
+   - **환경 상태**: 각 농장의 환경 상태를 적정 범위와 비교하여 시각적으로 표시합니다.
+
+4. **사용자 인증 및 로그인**:
+   - **카카오 및 구글 로그인**: 소셜 로그인 기능을 통해 사용자 인증을 지원합니다.
+   - **사용자 등록 및 로그인**: 사용자 계정 생성 및 로그인 기능을 제공합니다.
+
+## 설치 방법
+
+### 필수 요구 사항
+- Node.js 14 이상
+- npm 6 이상
+
+### 설치
+```sh
+npm install
+```
+
+### 개발 서버 실행
+```sh
+npm run dev
+```
+
+### 프로덕션 빌드
+```sh
+npm run build
+```
+
+## 사용 방법
+1. 개발 서버를 실행한 후, 브라우저에서 `http://localhost:3000`에 접속합니다.
+2. 사용자 계정을 생성하고 로그인합니다.
+3. 대시보드를 구성하고 데이터를 시각화합니다.
+
+## 기술 스택
+- **Vue 3**: 사용자 인터페이스를 구축하기 위한 프레임워크
+- **Vite**: 빠른 개발 환경을 제공하는 빌드 도구
+- **Tailwind CSS**: 유틸리티 기반의 CSS 프레임워크
+
+## 기여 방법
+1. 이 저장소를 포크합니다.
+2. 새로운 브랜치를 생성합니다.
+3. 변경 사항을 커밋합니다.
+4. 브랜치에 푸시합니다.
+5. Pull Request를 생성합니다.
+
+## 라이선스
+이 프로젝트는 MIT 라이선스 하에 배포됩니다.
 
 ## Recommended IDE Setup
 
@@ -9,21 +73,3 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
